@@ -1,0 +1,90 @@
+body{
+    background-image: url(./img/ssu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ang margin sa log in kaya nasa enter siya */
+.form-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: right;
+    padding: 80px;
+    margin-left: 700;
+    margin-right: 40px;
+}
+img{
+    height: 560px;
+	position: absolute;
+	bottom: 25px;
+	left: 70px;
+	transform: translate(600px);
+}
+/* login text */
+h3{
+    /* background-color: #7fa4acc7; */
+    /* padding: 1rem; */
+    margin-bottom: .3rem;
+    border: grey;
+    color: crimson;
+    text-align: left;
+    font-size: 45px;
+    font-family: Copperplate, Papyrus, fantasy;
+    
+}
+/* form  text*/
+h3 span{
+    color: black;
+    font-family: Copperplate, Papyrus, fantasy;
+    margin-left: 70;
+    /* background-color: #101f22c7; */
+}
+
+form{
+    /* background-color: maroon; */
+    padding: 3rem;
+    border: 1px solid whitesmoke;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: red;
+    border-color: maroon;
+}
+.form-item{
+    margin-bottom: 1rem;
+    width: 100;
+}
+/* button */
+.button-panel{
+    margin-top: 2rem;
+}
+/* yadi dd an sa username nan password na suratan */
+.inp1{
+    /* background-color: #0d171ad2; */
+    border-radius: 5px;
+    outline: 2px solid maroon ;
+    padding: .9rem;
+     color: maroon;
+    width: 250px;
+}
+/* yadi na .login is un na box na kulay navy 
+margin-left ay para maibutang namu sa gitna ang login button*/
+.login{
+    padding: .5rem;
+    background: navy;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 100px;
+    margin-left: 80;
+}
+/* yadi na login hover, pag in tapat mo ang cursor sa log in button magiging color cia
+kung baga maiba ang kulay niya tas ang text na login ay kulay puti */
+.login:hover{
+    background: blue;
+    transition: .5s;
+    color: white;
+}

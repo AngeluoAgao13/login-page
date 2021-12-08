@@ -1,0 +1,31 @@
+.box{
+    /* width: 50; */
+    background-color: maroon;
+    padding: 5rem;
+    border: 1px solid #eee;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ h3{
+     color: #eee;
+     margin-bottom: 3rem;
+     /* width: 80; */
+ }
+
+ .logout{
+     margin-top: 2rem;
+ }
+ .button{
+    padding: .5rem;
+    background: none;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    color: lightgreen;
+    text-decoration: none;
+ }
+ .button:hover{
+    background: green;
+    transition: .5s;
+ }
